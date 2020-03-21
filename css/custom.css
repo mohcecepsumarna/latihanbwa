@@ -1,0 +1,53 @@
+.btn-primary {
+    background: #22e337;
+    border: 0px;
+    padding: 15px 41px 15px 41px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.btn-primary:hover {
+    background: rgb(189, 124, 3);
+    border: 0px;
+}
+
+.btn-secondary {
+    background: none;
+    border: 1px BCD0E5;
+    padding: 15px 41px 15px 41px;
+    font-size: 16px;
+    font-weight: solid;
+    color: rgba(0, 0, 3, 0.959);
+}
+
+.btn-secondary:hover {
+    background: none;
+    border: 1px BCD0E5;
+    padding: 15px 41px 15px 41px;
+    font-size: 16px;
+    font-weight: solid;
+    color: rgba(16, 16, 231, 0.959);
+}
+
+.header h1 {
+    font-family: 'Poppins', ;
+    font-weight: 700;
+    margin-bottom: ;
+}
+
+.header p {
+    font-family: 'Poppins';
+    font-size: 400;
+}
+
+.navbar-nav-nav-link {
+    color: #050101;
+}
+
+@media only screen and (max-width: 768px) {
+    .btn-primary,
+    .btn-secondary {
+        margin-top: 20px;
+        margin-left: 0px !important;
+    }
+}
